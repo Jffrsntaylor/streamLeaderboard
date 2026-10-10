@@ -1,0 +1,43 @@
+{
+  "_note": "Dante's list! Each creator has a YouTube handle and where they're based (country, and state for the USA). The website ranks them by total views. To swap someone, change their name, handle and place.",
+  "places": {
+    "North Carolina, USA": { "lat": 35.5, "lng": -79.4 },
+    "Texas, USA":          { "lat": 31.0, "lng": -98.5 },
+    "California, USA":     { "lat": 36.8, "lng": -119.4 },
+    "Florida, USA":        { "lat": 28.3, "lng": -81.7 },
+    "New York, USA":       { "lat": 42.9, "lng": -75.5 },
+    "England, UK":         { "lat": 52.5, "lng": -1.5 },
+    "Netherlands":         { "lat": 52.2, "lng": 5.3 },
+    "Spain":               { "lat": 40.3, "lng": -3.7 },
+    "El Salvador":         { "lat": 13.8, "lng": -88.9 },
+    "Ontario, Canada":     { "lat": 44.5, "lng": -79.5 },
+    "Brazil":              { "lat": -14.2, "lng": -51.9 }
+  },
+  "creators": [
+    { "name": "MrBeast",          "handle": "@MrBeast",            "place": "North Carolina, USA" },
+    { "name": "Dude Perfect",     "handle": "@DudePerfect",        "place": "Texas, USA" },
+    { "name": "Mark Rober",       "handle": "@MarkRober",          "place": "California, USA" },
+    { "name": "Ryan's World",     "handle": "@RyansWorld",         "place": "Texas, USA" },
+    { "name": "Unspeakable",      "handle": "@Unspeakable",        "place": "Texas, USA" },
+    { "name": "PrestonPlayz",     "handle": "@Preston",            "place": "Texas, USA" },
+    { "name": "Ryan Trahan",      "handle": "@ryan",               "place": "Texas, USA" },
+    { "name": "Stampy",           "handle": "@stampylonghead",     "place": "England, UK" },
+    { "name": "iBallisticSquid",  "handle": "@iBallisticSquid",    "place": "England, UK" },
+    { "name": "DanTDM",           "handle": "@DanTDM",             "place": "England, UK" },
+    { "name": "LDShadowLady",     "handle": "@LDShadowLady",       "place": "England, UK" },
+    { "name": "Jelly",            "handle": "@Jelly",              "place": "Netherlands" },
+    { "name": "Kwebbelkop",       "handle": "@Kwebbelkop",         "place": "Netherlands" },
+    { "name": "Dream",            "handle": "@dream",              "place": "Florida, USA" },
+    { "name": "Like Nastya",      "handle": "@LikeNastyaofficial", "place": "Florida, USA" },
+    { "name": "Kids Diana Show",  "handle": "@KidsDianaShow",      "place": "Florida, USA" },
+    { "name": "Vlad and Niki",    "handle": "@VladandNiki",        "place": "Florida, USA" },
+    { "name": "CaptainSparklez",  "handle": "@CaptainSparklez",    "place": "California, USA" },
+    { "name": "Brent Rivera",     "handle": "@BrentRivera",        "place": "California, USA" },
+    { "name": "Blippi",           "handle": "@Blippi",             "place": "California, USA" },
+    { "name": "Jordan Matter",    "handle": "@JordanMatter",       "place": "New York, USA" },
+    { "name": "Typical Gamer",    "handle": "@TypicalGamer",       "place": "Ontario, Canada" },
+    { "name": "Mikecrack",        "handle": "@Mikecrack",          "place": "Spain" },
+    { "name": "Fernanfloo",       "handle": "@Fernanfloo",         "place": "El Salvador" },
+    { "name": "Jazzghost",        "handle": "@Jazzghost",          "place": "Brazil" }
+  ]
+}

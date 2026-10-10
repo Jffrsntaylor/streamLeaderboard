@@ -1,6 +1,12 @@
 {
+  "platform": {
+    "apiRuntime": "node:20"
+  },
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/images/*", "/css/*", "/js/*", "/api/*"]
+    "exclude": ["/images/*", "/css/*", "/js/*", "/lib/*", "/data/*", "/api/*"]
+  },
+  "mimeTypes": {
+    "json": "application/json"
   }
 }

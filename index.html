@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- HTML = the BUILDING. It says what's on the page. -->
+  <!-- HTML = the BUILDING. It says what's on the page and where it goes. -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stream Leaderboard</title>
+  <title>TubeTracker</title>
+  <meta name="description" content="The top 25 kid-friendly YouTubers, their total views, who's live right now, and where in the world they are.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <!-- The falling 1s and 0s. JavaScript draws them on this canvas. -->
+  <canvas id="matrix" aria-hidden="true"></canvas>
+
+  <header class="hero">
+    <h1 class="title" data-text="TubeTracker">TubeTracker</h1>
+    <p class="tagline">Top 25 kid-friendly YouTubers &middot; total views &middot; who's live &middot; where they live</p>
+  </header>
+
   <main>
-    <h1>Stream Leaderboard</h1>
-    <p>Coming soon. Dante is designing it right now!</p>
-    <button id="hello-button">Click me</button>
-    <p id="message"></p>
+    <!-- ROOM 1: the leaderboard -->
+    <section class="panel" aria-labelledby="board-title">
+      <div class="panel-head">
+        <h2 id="board-title">&gt; LEADERBOARD</h2>
+        <span id="status" class="status">loading...</span>
+      </div>
+      <ol id="board" class="board"></ol>
+    </section>
+
+    <!-- ROOM 2: the globe -->
+    <section class="panel" aria-labelledby="globe-title">
+      <div class="panel-head">
+        <h2 id="globe-title">&gt; WHERE THEY LIVE</h2>
+        <button id="earth-toggle" class="toggle" type="button">Real Earth</button>
+      </div>
+      <p class="hint">Drag to spin. Scroll or pinch to zoom. Click a dot or a name to fly there.</p>
+      <div id="globe" class="globe"></div>
+      <div id="picked" class="picked" hidden></div>
+    </section>
   </main>
-  <script src="js/app.js"></script>
+
+  <footer class="footer">
+    Built by Dante (and Dad) &middot; Data from YouTube
+  </footer>
+
+  <!-- JavaScript = the WAITERS. Each file has one job. -->
+  <script src="js/matrix.js"></script>
+  <script src="lib/globe.gl/globe.gl.min.js"></script>
+  <script src="js/globe.js"></script>
+  <script src="js/leaderboard.js"></script>
 </body>
 </html>

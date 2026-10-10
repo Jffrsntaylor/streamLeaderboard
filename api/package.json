@@ -1,0 +1,9 @@
+{
+  "name": "tubetracker-api",
+  "version": "1.0.0",
+  "description": "The kitchen: asks YouTube for views and who is live.",
+  "main": "src/functions/*.js",
+  "dependencies": {
+    "@azure/functions": "^4.5.0"
+  }
+}
