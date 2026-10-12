@@ -2,7 +2,7 @@
 
 # TubeTracker
 
-**Dante's first website:** the top 25 kid-friendly YouTubers, their total views, who's live right now, and a 3D globe showing where they live.
+**Dante's first website:** Made with my son this site shows the top 25 kid-friendly YouTubers, their total views, who's live right now, and a 3D globe showing where they live.
 
 <a href="https://witty-forest-0017bfc1e.2.azurestaticapps.net/">
   <img src="images/readme/globe.png" alt="TubeTracker's green Matrix-style globe with dots where YouTubers live" width="720">
